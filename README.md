@@ -1,6 +1,9 @@
 # Algebraic Variety Models for High-Rank Matrix Completion
 
-MATLAB code to implement the variety-based matrix completion (VMC) algorithm described in the paper:
+I implemented the algorithm proposed by Ongie et al. on a subset of the Netflix dataset. The data is in the file `ex8_movies.mat` and the code is in the file titled `netflix.m`. I also reimplemented the Mocap dataset analysis from the original paper. 
+
+----- Original code by Greg Ongie -----
+MATLAB code to implement the variety-based matrix completion (VMC) algorithm described in the paper by Ongie et al.:
 
 > G. Ongie, R. Willett, R. Nowak, L. Balzano.
 > "Algebraic Variety Models for High-Rank Matrix Completion", in ICML 2017.
@@ -24,6 +27,6 @@ Datasets used in the examples are borrowed from:
 * CMU Mocap: http://mocap.cs.cmu.edu/
 
 Our implementation of randomized svd uses code from:
-* Mu Li: [Making Large-Scale Nyström Approximation Possible](https://github.com/mli/nystrom)
+* Mu Li: [Making Large-Scale NystrÃ¶m Approximation Possible](https://github.com/mli/nystrom)
 * Antoine Liutkus: [Matlab Central](https://www.mathworks.com/matlabcentral/fileexchange/47835-randomized-singular-value-decomposition)
 
