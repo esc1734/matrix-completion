@@ -1,6 +1,6 @@
 # Algebraic Variety Models for High-Rank Matrix Completion
 
-I implemented the algorithm proposed by Ongie et al. on a subset of the Netflix dataset. The data is in the file `ex8_movies.mat` and the code is in the file titled `netflix.m`. I also reimplemented the Mocap dataset analysis from the original paper. 
+I implemented the algorithm proposed by Ongie et al. on a subset of the Netflix dataset. The data is in the file `ex8_movies.mat` and the code is in the file titled `netflix.m`. I also reimplemented the Mocap dataset analysis from the original paper. To implement this, you also need the Manopt package in matlab. 
 
 ----- Original code by Greg Ongie -----
 MATLAB code to implement the variety-based matrix completion (VMC) algorithm described in the paper by Ongie et al.:
